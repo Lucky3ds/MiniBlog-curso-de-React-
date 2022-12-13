@@ -1,0 +1,27 @@
+.post_container{
+    text-align: center;
+}
+.post_container h3{
+    margin: .2em;
+}
+.post_container .tags{
+    display: flex;
+    justify-content: center;
+}
+.tags p{
+    margin-right: 1em;
+}
+.tags span{
+    font-weight: bold;
+}
+
+/*-------------Responsive img----------*/
+@media screen and (max-width: 670px){
+    .post_container img{
+        width: 95%;
+        max-width: 670px;
+    }
+    .post_body{
+        padding: 0 2%;
+    }
+}

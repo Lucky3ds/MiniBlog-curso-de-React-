@@ -1,0 +1,43 @@
+.navbar{
+    display: flex;
+    box-shadow: rgba(0,0,0, .15) 0px -2px 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5em 2em;
+    
+}
+.brand{
+    font-size: 1.2em;
+}
+.brand span{
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.links_list{
+    display: flex;
+    list-style:none;
+    
+}
+.links_list{
+    margin-left: 1em;
+}
+.links_list li a{
+    padding: 0.4em 0.6em ;
+    
+}
+a.active {
+    background-color: #000;
+    color: #fff;
+}
+
+@media screen and (max-width: 1024px){
+    .navbar{
+        padding: 25px;
+    }
+    .links_list li a{
+        white-space: nowrap;
+    }
+    .links_list {
+        font-size: 15px;
+    }
+}

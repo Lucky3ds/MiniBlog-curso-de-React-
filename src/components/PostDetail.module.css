@@ -1,0 +1,42 @@
+.post_detail{
+    margin-bottom: 2em;
+    padding: 0 2%;
+}
+.post_detail img{
+    max-width: 600px;
+}
+
+.post_detail h2{
+    margin: .4em;
+}
+.post_detail .tags{
+    margin-bottom: 1.2em;
+   display: flex;
+}
+.tags p{
+    margin-right: 15px;
+}
+.tags span{
+    font-weight: bold;
+}
+
+.createdBy{
+    font-style: italic;
+    color: #444;
+    font-size: .8em;
+    margin-bottom: 1em;
+    
+}
+
+/*-------------Responsive post-----------*/
+
+@media screen and (max-width: 670px){
+
+    .post_detail img{
+        width: 95%;
+        max-width: 670px;
+        margin-left: 15px;
+       
+    }
+    
+    }
